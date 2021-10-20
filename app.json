@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "cryptomaster",
+    "slug": "snack-684e0aa8-f640-460f-b63b-de6b89b53394",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/play_store.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cryptomasterclass.com",
+      "jsEngine": "hermes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "cryptomasterclass.com",
+      "jsEngine": "hermes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "a place of learning"
+  }
+}
