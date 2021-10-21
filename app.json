@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/play_store.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/play_store.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +18,17 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "cryptomasterclass.com",
-      "jsEngine": "hermes"
+      "bundleIdentifier": "cryptomasterclass.com"
+     
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "cryptomasterclass.com",
-      "jsEngine": "hermes"
+      "package": "cryptomasterclass.com"
+     
+    
     },
     "web": {
       "favicon": "./assets/favicon.png"

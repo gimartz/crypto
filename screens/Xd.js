@@ -19,12 +19,12 @@ import {
 import remove from 'lodash/remove';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 // import components
-import ActionProductCardHorizontal from '../../components/cards/ActionProductCardHorizontal';
-import EmptyState from '../../components/emptystate/EmptyState';
-import {Heading6, SmallText} from '../../components/text/CustomText';
-import { firebase } from '../../src/firebase/config'
+import ActionProductCardHorizontal from '../components/cards/ActionProductCardHorizontal';
+import EmptyState from '../components/emptystate/EmptyState';
+import {Heading6, SmallText} from '../components/text/CustomText';
+import { firebase } from '../src/firebase/config'
 // import colors
-import Colors from '../../theme/colors';
+import Colors from '../theme/colors';
 
 import { FAB ,Divider} from 'react-native-paper';
 

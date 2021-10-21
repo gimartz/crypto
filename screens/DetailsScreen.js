@@ -1,5 +1,5 @@
 import React ,{ useEffect,useRef , useState }from 'react';
-import Toast from 'react-native-toast-message';
+
 import {
   ImageBackground,
   SafeAreaView,Pressable,
@@ -38,11 +38,7 @@ alert
     const userRef = firebase.firestore().collection('coursefav')
     userRef.add(data).then((res) => {
     
-       Toast.show({
-      type: 'success',
-   
-      text2: 'Tadded 👋'
-    });  }).catch((error) => {
+  }).catch((error) => {
           console.log("Error getting document:", error);
     alert(JSON.stringify(error))
   })

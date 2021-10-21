@@ -4,7 +4,7 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 import styles from './styles';
 import { firebase } from '../../firebase/config'
 import Spinner from 'react-native-loading-spinner-overlay'
-
+import getImgSource from '../../../utils/getImgSource.js';
 export default function Registration({navigation}) {
   const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
